@@ -1,0 +1,74 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin-bottom: 100;
+    
+    
+}
+
+header {
+    border-bottom: solid 2px purple;
+    padding: 20px;
+    font-size: 32px;
+    color: purple;
+
+}
+
+.texto{
+    background-color: blueviolet;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.chamada-texto{
+    margin-right: 3%;
+
+
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    margin-top: 50;
+
+}
+
+.categoria-jogos{
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid white;
+
+}
+
+.categoria-jogos h2{
+    color: purple;
+
+}
+
+
+
+
+
+
+
+
+
+
